@@ -100,7 +100,6 @@ ul {
 
 .contacts {
   font-style: normal;
-  margin-left: auto;
 }
 
 .mail-style {
@@ -129,6 +128,7 @@ ul {
 .head {
   padding-bottom: 24px;
   padding-top: 24px;
+  justify-content: space-between;
 }
 
 .nav-menu,
@@ -161,9 +161,8 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 48px;
   max-width: 496px;
-  margin: 0 auto;
+  margin: 0 auto 48px;
 }
 
 .button {
