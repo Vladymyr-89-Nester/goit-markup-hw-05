@@ -624,6 +624,7 @@ ul {
 .close-btn:focus {
   background-color: #404bbf;
   fill: #FFFFFF;
+  border: none;
 
 }
 
