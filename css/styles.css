@@ -460,6 +460,10 @@ ul {
 
 }
 
+.foot-social {
+  margin-right: 80px;
+}
+
 .foot-social-box {
   gap: 16px;
   display: flex;
@@ -475,11 +479,70 @@ ul {
 
 .foot-social-text {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 16px;
+}
+
+.subscribe-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.subscribe-wrapper-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding-left: 16px;
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-input:focus {
+  border: 1px solid #4d5ae5;
+}
+
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.subscribe-btn {
+  display: flex;
+  gap: 16px;
+  padding: 8px 24px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  min-width: 165px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #31d0aa;
 }
 
 
@@ -690,4 +753,7 @@ ul {
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
+/* * / MODAL */
